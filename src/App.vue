@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit nesciunt dolorem exercitationem esse, quisquam veritatis mollitia consectetur ullam officiis, sequi itaque temporibus vitae placeat ducimus voluptatem, reprehenderit expedita id.
+    lorem
   </div>
 </template>
 
