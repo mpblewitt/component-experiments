@@ -6,14 +6,13 @@
 
 <script>
 export default {
-    data(){
-        return {
-            theme: {
-                primary: 'palevioletred'
-            }
-        };
-    }
+  data() {
+    return {
+      theme: {
+        primary: 'palevioletred',
+      },
+    };
+  },
 
-}
+};
 </script>
-

@@ -1,12 +1,12 @@
-import Vue from 'vue'
-import App from './App.vue'
-import {ThemeProvider} from 'vue-styled-components'
+import Vue from 'vue';
+import { ThemeProvider } from 'vue-styled-components';
+import App from './App.vue';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
+  render: (h) => h(App),
   components: {
-    'theme-provider': ThemeProvider
+    'theme-provider': ThemeProvider,
   },
-}).$mount('#app')
+}).$mount('#app');
