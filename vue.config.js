@@ -1,5 +1,13 @@
 // vue.config.js
 module.exports = {
+  chainWebpack: (config) => {
+    config.module
+      .rule('eslint')
+      .use('eslint-loader')
+      .options({
+        fix: true,
+      });
+  },
   css: {
     loaderOptions: {
       // by default the `sass` option will apply to both syntaxes
