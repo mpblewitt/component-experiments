@@ -1,20 +1,30 @@
 <template>
   <AppTheme>
     <div id="app">
-      <VButton variant="secondary" size="sm">Button</VButton>
+      <ScssButton variant="secondary" size="sm">SCSS Button</ScssButton>
+      <br/><br/>
+      <StyledComponentButton variant="secondary" size="sm">
+        Styled Components Button
+      </StyledComponentButton>
+      <br/><br/>
+      <CssModuleButton variant="secondary" size="sm">CSS module button</CssModuleButton>
     </div>
   </AppTheme>
 </template>
 
 <script>
 import AppTheme from '@/components/styled-components/AppTheme';
-import VButton from '@/components/styled-components/VButton';
+import ScssButton from '@/components/scss-components/VButton';
+import CssModuleButton from '@/components/css-module/VButton';
+import StyledComponentButton from '@/components/styled-components/VButton';
 
 export default {
   name: 'App',
   components: {
     AppTheme,
-    VButton,
+    ScssButton,
+    CssModuleButton,
+    StyledComponentButton,
   },
 };
 </script>
@@ -27,6 +37,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  /* background: $bg; */
 }
 </style>

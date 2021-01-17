@@ -17,11 +17,11 @@ const StyledButton = styled('button', btnProps)`
   font-size: ${(props) => {
     switch (props.size) {
       case 'lg':
-        return props.theme.space[4];
+        return props.theme.space[8];
       case 'sm':
-        return props.theme.space[2];
+        return props.theme.space[4];
       default:
-        return props.theme.space[3];
+        return props.theme.space[6];
     }
   }};
   padding: ${(props) => {
@@ -39,9 +39,9 @@ const StyledButton = styled('button', btnProps)`
   background: ${(props) => {
     switch (props.variant) {
       case 'secondary':
-        return props.theme.secondary;
+        return props.theme.colors.secondary;
       default:
-        return props.theme.primary;
+        return props.theme.colors.primary;
     }
   }};
   color: white;

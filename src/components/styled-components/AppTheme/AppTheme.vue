@@ -14,8 +14,6 @@ export default {
   data() {
     return {
       theme: {
-        primary: '#C44536',
-        secondary: '#197278',
         space: [
           '0.25rem',
           '0.5rem',
@@ -31,6 +29,10 @@ export default {
           '16rem',
           '24rem',
         ],
+        colors: {
+          primary: '#C44536',
+          secondary: '#197278',
+        },
       },
     };
   },

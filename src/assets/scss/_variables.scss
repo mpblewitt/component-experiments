@@ -1,1 +1,10 @@
-$bg: red;
+$color-primary: #C44536;
+$color-secondary: #197278;
+
+$spaces: 0.25rem, 0.5rem, 0.75rem, 1rem, 1.5rem, 2rem, 3rem, 4rem, 5rem;
+
+@function space($number) {
+    $result: nth($spaces, $number+1);
+    @return $result;
+}
+
