@@ -1,5 +1,7 @@
 # component-experiments
 
+Vue component experiments. A VButton component using scss, css-modules & styles components. See `/src/components`
+
 ## Project setup
 ```
 npm install
